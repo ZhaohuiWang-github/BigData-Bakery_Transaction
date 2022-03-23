@@ -2,12 +2,11 @@
 # Analysis of Transaction Data for a Bakery
 Demo of [PySpark](http://spark.apache.org/docs/2.4.0/api/python/pyspark.html) and [Jupyter Notebook](http://jupyter.org/) with the [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/):
 
-+ sad
-+ sd
++ On Linux (Ubuntu 20.04) systems, deploye a Docker stack to a single-node Docker Swarm, 
++ Utilized PySpark ETL to load the bakery dataset, performing Exploratory Data Analysis with Spark SQL, graphing the data using BokehJS, and saving data to Apache Parquet file format. 
 + sd
 
-## Summary
-
+loading data from a CSV file and from the PostgreSQL database, performing basic data analysis with Spark SQL including the use of PySpark user-defined functions (UDF), graphing the data using BokehJS, and finally, saving data back to the database, as well as to the fast and efficient Apache Parquet file format.
 
 ## Architecture
 
