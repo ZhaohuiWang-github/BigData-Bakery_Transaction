@@ -49,8 +49,6 @@ From a Jupyter terminal window:
 6. Try the alternate Jupyter stack with [nbextensions](https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/install.html) pre-installed, first `cd docker_nbextensions/`, then run `docker build -t garystafford/all-spark-notebook-nbext:latest .` to build the new image
 7. Then, to delete the previous stack, run `docker stack rm jupyter`, followed by creating the new stack, run `cd -` and `docker stack deploy -c stack-nbext.yml jupyter`
 
-<img src="https://programmaticponderings.files.wordpress.com/2018/11/pyspark_article_11_notebook.png" alt="Jupyter Notebook" width="800"/>
-
 ## References
 
 - [Getting Started with Data Analytics using Jupyter Notebooks, PySpark, and Docker](https://programmaticponderings.com/2019/12/06/getting-started-with-data-analytics-using-jupyter-notebooks-pyspark-and-docker/)
