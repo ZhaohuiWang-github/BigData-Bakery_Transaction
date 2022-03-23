@@ -4,9 +4,7 @@ Demo of [PySpark](http://spark.apache.org/docs/2.4.0/api/python/pyspark.html) an
 
 + Deployed a Docker stack to a single-node Docker Swarm on Linux (Ubuntu 20.04) system.
 + Utilized PySpark ETL to load the bakery dataset, performing Exploratory Data Analysis with Spark SQL, graphing the data using BokehJS, and saving data to Apache Parquet file format. 
-+ sd
-
-loading data from a CSV file and from the PostgreSQL database, performing basic data analysis with Spark SQL including the use of PySpark user-defined functions (UDF), graphing the data using BokehJS, and finally, saving data back to the database, as well as to the fast and efficient Apache Parquet file format.
++ Constructed a bar chart of daily bakery items sold via Plotly. The chart uses SciPy and NumPy to construct a linear fit (regression) and plot a line of best fit for the bakery data and overlaying the vertical bars. The chart also uses SciPy’s Savitzky-Golay Filter to plot the second line, illustrating a smoothing of our bakery data.
 
 ## Architecture
 
