@@ -2,7 +2,7 @@
 # Analysis of Transaction Data for a Bakery
 Demo of [PySpark](http://spark.apache.org/docs/2.4.0/api/python/pyspark.html) and [Jupyter Notebook](http://jupyter.org/) with the [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/):
 
-+ Deployed a Docker stack to a single-node Docker Swarm on Linux (Ubuntu 20.04) system.引导脚本
++ Deployed a Docker stack to a single-node Docker Swarm on Linux (Ubuntu 20.04) system.
 + Utilized PySpark ETL to load the bakery dataset, performing Exploratory Data Analysis with Spark SQL, graphing the data using BokehJS, and saving data to Apache Parquet file format. 
 + Constructed a bar chart of daily bakery items sold via Plotly. The chart uses SciPy and NumPy to construct a linear fit (regression) and plot a line of best fit for the bakery data and overlaying the vertical bars. The chart also uses SciPy’s Savitzky-Golay Filter to plot the second line, illustrating a smoothing of our bakery data.
 
