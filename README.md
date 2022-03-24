@@ -1,3 +1,6 @@
+![](https://img.shields.io/badge/category-Big--Data-success)
+![](https://img.shields.io/badge/program-Spark-green)
+![](https://img.shields.io/badge/resource-Open-blue)
 
 # Analysis of Transaction Data for a Bakery
 Demo of [PySpark](http://spark.apache.org/docs/2.4.0/api/python/pyspark.html) and [Jupyter Notebook](http://jupyter.org/) with the [Jupyter Docker Stacks](https://jupyter-docker-stacks.readthedocs.io/en/latest/):
